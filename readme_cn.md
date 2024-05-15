@@ -1,7 +1,7 @@
 # Go Redis Panel
 
 Go Redis Panel 是一个简单的图形用户界面应用程序，用于管理Redis服务的启动、停止和重启。这个程序是用Go语言编写的，并使用了Fyne库来创建GUI。
-
+![](readme_cn_files/1.png)
 ## 功能
 
 - 启动Redis服务
@@ -16,7 +16,7 @@ Go Redis Panel 是一个简单的图形用户界面应用程序，用于管理Re
 一旦安装了Go，你可以通过以下命令克隆并构建项目：
 
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/litongjava/go-redis-panel.git
 cd go-redis-panel
 go build -ldflags -H=windowsgui
 ```
